@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" content="width=device-width, initial-scale=1.0">
+        <title></title>
+    </head>
+    <body>
+        <header>
+            <h1 >Registration Form</h1>
+        </header>
+        <main>
+            <section>
+                <form>
+                    <fieldset style="background-color: bisque;">
+                        <legend style="background-color: red;">Personal Data</legend>
+                        <br><br>
+                    <fieldset style="background-color: brown; margin-bottom: 50px;">
+                        <legend style="background-color: yellow; padding-top: 50px; padding-bottom: 50px; margin-bottom: 50px;">Your Name</legend>
+                    <label for="fname">First Name:</label>
+                    <br>
+                    <input type="text" id="fname" name="fname">
+                    <br>
+                    <label for="lname">Last Name:</label>
+                    <br>
+                    <input type="text" id="lname" name="lname">
+                    <br>
+                    </fieldset>
+                    <br>
+                    <label for="phone">Your Phone:</label>
+                    <br>
+                    <input type="tel" id="phone" name="phone">
+                    <br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" id="email" name="email">
+                    <br>
+                    <label for="password">Password:</label>
+                    <br>
+                    <input type="password" id="password" name="passowrd">
+                    <br>
+                    <label for="repassword">repassword:</label>
+                    <br>
+                    <input type="repassword" id="repassword" name="repassowrd">
+                    <br>
+                    <h2>Status:</h2>
+                    <label for="student">Student</label>
+                    <input type="Radio" id="student" name="Status" value="student">
+                    <br>
+                    <label for="graduated">Graduated</label>
+                    <input type="Radio" id="graduated" name="Status" value="graduated">
+                    <h2>Gender:</h2>
+                    <label for="Male">Male</label>
+                    <input type="checkbox" id="Male" name="gender" value="male">
+                    <br>
+                    <label for="Female">Female</label>
+                    <input type="checkbox" id="Female" name="gender" value="female">
+                    <br><br>
+                    <label for="cars">Choose Car:</label>
+                    <select id="cars" name="cars">
+                        <optgroup label="Japanese cars">
+                            <option value="toyota">Toyota</option>
+                            <option value="honda">Honda</option>
+                        </optgroup>
+                        <optgroup label="German cars" disabled>
+                            <option value="bmw">BMW</option>
+                            <option value="audi">Audi</option>
+                        </optgroup>
+                    </select>
+                    <br><br>
+                    <input type="image" src="./submitbutton.jpg" alt="Submit" width="100" >
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
